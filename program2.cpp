@@ -31,7 +31,7 @@ public:
  }
  float area()
  {
- return length * breadth; 9
+ return length * breadth; 
  }
 };
 class Triangle : public Shape
@@ -63,4 +63,4 @@ int main()
  cout << "Area of Triangle: " << ptr->area() << endl;
  return 0;
 }
-Output
+
